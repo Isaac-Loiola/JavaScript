@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body 
+        {
+            background-color: rgba(20, 20, 236, 0.387);
+            color: white;
+            font: normal 12pt Arial;    
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!<h1>
+        <p>Já me livrei</p>
+        <p>Lorem ipsum dolor sit ame.</p>
+    <script>
+   
+
+        var n1 = Number(window.prompt ('Adicione um numero aqui: ')) //string
+        var n2 = Number(window.prompt ('Adicione outro numero: ')) //string
+        var s = n1 + n2 
+        window.alert (`A soma entre ${n1} e ${n2} é de ${s}`)
+        // (number + number ) adição
+        // (string + string) concatenação
+        // window.prompt trada os dados que entram como uma sting
+
+        /*
+
+
+            CONVERTER STRING EM NUMBER      
+            (Sempre lembrar de encrever a tag dessa forma) 
+                Number.parseInt(n) - Para numeros Inteiros 
+                Number.parseFLoat(n) - Para numeros Reais
+            
+            Forma mais simples e atualizada de converter string em number
+                Number(n) - Entende numeros Inteiros e Reais
+
+            CONVERTER NUMBER EM STRING
+                String(n)
+                n.toSting()
+
+            
+            var nome = 'isaac'
+            var idade = 16
+            var nota = 10
+            `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+                O aluno isaac com 16 anos de tirou a nota 10
+        */
+    </script>
+
+</body>
+</html>
