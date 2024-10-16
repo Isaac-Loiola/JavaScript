@@ -43,12 +43,24 @@
                 String(n)
                 n.toSting()
 
-            
-            var nome = 'isaac'
-            var idade = 16
-            var nota = 10
-            `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
-                O aluno isaac com 16 anos de tirou a nota 10
+            FORMATAÇÃO DE STRINGS
+                var nome = 'isaac'
+                var idade = 16
+                var nota = 10
+
+            Não Faz Interpolação (A concatenação tem que estar fora da virgula)
+                'O ALUNO nome COM idade ANOS TIROU A NOTA nota'
+                    O ALUNO nome COM idade ANOS TIROU A NOTA nota
+
+            Concatenado
+                'O aluno ' + nome + 'com ' + idade + 'anos tirou a nota ' + nota
+                    O aluno isaac com 16 anos tirou a nota 10
+
+            Tamplate Strings (Entre crases)
+                `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+                    O aluno isaac com 16 anos de tirou a nota 10
+
+            (${} > Place holder)
         */
     </script>
 
