@@ -10,13 +10,25 @@
         {
         font: normal 20pt Arial;
         }
+
     </style>
 
 </head>
 <body>
     <script>
         var nome = window.prompt ('Qual é sei nome ? ')
-        document.write(`Olá ${nome}, seu nome tem ${nome.length} letras`)
+        document.write(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length} letra </br>`)
+        document.write(`Seu em maiúsculas é ${nome.toUpperCase()} </br>`)
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+
+        /*
+
+        documento.write() > escreve nome na tela
+        lenghth > Diz o tamanho da String
+        variavel.toLowerCase() > Define o valor da variavel em minusculas 
+        variavel.toUpperCase() > Define o valor da variavel em maiusculas
+        */
     </script>
+    
 </body>
-</html>
+</htm
